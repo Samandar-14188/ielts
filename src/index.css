@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('./assets/Webp.net-resizeimage-53.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(8px); /* xiralash darajasi */
+  z-index: -1; /* kontent ustida chiqmasligi uchun */
+}
