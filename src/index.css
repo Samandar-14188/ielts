@@ -14,3 +14,14 @@ body {
   background: rgba(255, 255, 255, 0.2); 
   backdrop-filter: blur(6px); 
 }
+.signature {
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
